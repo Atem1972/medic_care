@@ -1,4 +1,4 @@
-const api_root="https://4fk3bu0ra2.execute-api.us-east-1.amazonaws.com/staging1/";
+const api_root="https://4fk3bu0ra2.execute-api.us-east-1.amazonaws.com/staging1/";   // changes this with the api url
 function loadTable(){
     const xhttp = new XMLHttpRequest();
     xhttp.open("GET",api_root + "users");
